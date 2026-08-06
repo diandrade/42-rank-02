@@ -1,0 +1,1 @@
+alpha_index = 27 - letter; 
