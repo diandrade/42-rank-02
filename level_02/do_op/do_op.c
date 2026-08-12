@@ -1,12 +1,20 @@
-#include <unistd.h>
+#include "do_op.h"
 
-void	do_op(void *first_addend, char op, void *second_addend)
+void	do_op(void *first_addend, char *op, void *second_addend)
 {
-}
+	char	*fa_ptr;
+	char	*sa_ptr;
 
-int	main(int argc, char **argv)
-{
-	if (argc == 4)
-		do_op(argv[1], argv[2], argv[3]);
-	write(1, "\n", 2);
+	fa_ptr = (char *)first_addend;
+	sa_ptr = (char *)second_addend;
+	if (*op == '/')
+		printf("%d", atoi(fa_ptr) / atoi(sa_ptr));
+	else if (*op == '*')
+		printf("%d", atoi(fa_ptr) * atoi(sa_ptr));
+	else if (*op == '+')
+		printf("%d", atoi(fa_ptr) + atoi(sa_ptr));
+	else if (*op == '-')
+		printf("%d", atoi(fa_ptr) - atoi(sa_ptr));
+	else if (*op == '%')
+		printf("%d", atoi(fa_ptr) % atoi(sa_ptr));
 }
