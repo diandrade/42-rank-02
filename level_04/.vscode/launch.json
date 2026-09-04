@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/diandrade/Desktop/42-rank-02/level_02",
-      "program": "/home/diandrade/Desktop/42-rank-02/level_02/build/Debug/outDebug",
+      "cwd": "/home/diandrade/Desktop/42-rank-02/level_04/rostring",
+      "program": "/home/diandrade/Desktop/42-rank-02/level_04/rostring/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/diandrade/Desktop/42-rank-02/level_01/repeat_alpha",
-      "program": "/home/diandrade/Desktop/42-rank-02/level_01/repeat_alpha/build/Debug/outDebug",
+      "cwd": "/home/diandrade/Desktop/42-rank-02/level_03/add_prime_sum",
+      "program": "/home/diandrade/Desktop/42-rank-02/level_03/add_prime_sum/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
